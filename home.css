@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('photos/home_photo.jpg'); /* Add the path to your home photo */
+    background-image: url('photo/home_photo.jpg'); /* Add the path to your home photo */
     /* background-size: cover; Set the background image to cover the entire body */
     background-position: center;
     color: white;
