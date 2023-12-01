@@ -1,0 +1,46 @@
+/* General styles for the entire website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('photos/home_photo.jpg'); /* Add the path to your home photo */
+    /* background-size: cover; Set the background image to cover the entire body */
+    background-position: center;
+    color: white;
+  }
+  
+  /* Styles specific to the home page content */
+  #home {
+    text-align: center;
+    padding-top: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #home h1 {
+    margin-bottom: 100px;
+  }
+  
+  #home p {
+    margin-bottom: 20px;
+  }
+
+  /* Styles for the photo gallery */
+.home-gallery {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Keep images in a single line */
+  padding: 100px 0;
+}
+
+.home-gallery img {
+  display: inline-block; /* Display images in a row */
+  width: 300px; /* Adjust image width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust spacing between images */
+}
+.text-background {
+  background-color: rgba(121, 110, 110, 0.7); /* Light color with transparency */
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
